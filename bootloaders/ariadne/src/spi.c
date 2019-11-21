@@ -147,6 +147,7 @@ void spiInit(void)
 	/** Set SD SS pin as output */
 	SD_DDR |= _BV(SD_SS);
 
+#if !defined(__AVR_ATmega1280__) && !defined(__AVR_ATmega2560__)
 	#if (LED != SCK)
 	/** Set up pins to flash the onboard led */
 	/** Set led pin to high */
@@ -154,6 +155,7 @@ void spiInit(void)
 	/** Set led pin as output */
 	LED_DDR |= _BV(LED);
 	#endif
+#endif
 
 	/** Set up SPI
 	 ** Set the Double SPI Speed Bit */
