@@ -23,7 +23,7 @@
 	#error "Unknown MCU. Cannot find the proper serial bootloader."
 #endif
 
-
+uint8_t serialFlashing = FALSE;
 
 void serialInit(void)
 {
