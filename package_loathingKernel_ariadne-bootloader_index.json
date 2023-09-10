@@ -17,9 +17,9 @@
           "help": {
             "online": "https://github.com/Ariadne-Bootloader/ariadne-bootloader"
           },
-          "url": "https://github.com/loathingKernel/ariadne-bootloader/releases/download/v0.2.1/ariadne-bootloader-0.2.1.tar.gz",
+          "url": "https://github.com/tka4ev/ariadne-bootloader/files/12567770/ariadne-bootloader-0.2.1.zip",
           "archiveFileName": "ariadne-bootloader-0.2.1.tar.gz",
-          "checksum": "SHA-256:8db6d41020a6b6dbd4ec435af42fd8fd5e66fb22867a4808a2ef88d62f7a19f2",
+          "checksum": "SHA-256:cff038a71f1bfd60ba91e05a70838bf2631e44199bbe80c842aa95c1fcbbaa94",
           "size": "115620",
           "boards": [
             {"name": "Uno"},
