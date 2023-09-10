@@ -88,6 +88,60 @@ ariadne328UW.menu.version.debugw5500.bootloader.file=ariadne/ariadne_debug328_w5
 
 ##############################################################
 
+ariadne328NW.name=Arduino Nano
+
+ariadne328NW.upload.tool=arduino:avrdude
+ariadne328NW.upload.maximum_data_size=2048
+ariadne328NW.upload.protocol=arduino
+ariadne328NW.upload.maximum_size=28672
+ariadne328NW.upload.speed=115200
+
+ariadne328NW.bootloader.tool=arduino:avrdude
+ariadne328NW.bootloader.low_fuses=0xFF
+ariadne328NW.bootloader.high_fuses=0xD8
+ariadne328NW.bootloader.extended_fuses=0x05
+ariadne328NW.bootloader.unlock_bits=0x3F
+ariadne328NW.bootloader.lock_bits=0x0F
+
+ariadne328NW.build.mcu=atmega328p
+ariadne328NW.build.f_cpu=16000000L
+ariadne328NW.build.core=arduino:arduino
+ariadne328NW.build.variant=arduino:standard
+ariadne328NW.build.board=AVR_NANO
+
+
+## standard bootloader for Arduino Nano with Wiznet W5100 chip
+## ---------------------------------------------
+ariadne328NW.menu.version.standardw5100=Standard w/ Wiznet W5100
+ariadne328NW.menu.version.standardw5100.bootloader.file=ariadne/ariadne_atmega328_w5100.hex
+
+## debug bootloader for Arduino Nano with Wiznet W5100 chip
+## ---------------------------------------------
+ariadne328NW.menu.version.debugw5100=Debug w/ Wiznet W5100
+ariadne328NW.menu.version.debugw5100.bootloader.file=ariadne/ariadne_debug328_w5100.hex
+
+## standard bootloader for Arduino Nano with Wiznet W5200 chip
+## ---------------------------------------------
+ariadne328NW.menu.version.standardw5200=Standard w/ Wiznet W5200
+ariadne328NW.menu.version.standardw5200.bootloader.file=ariadne/ariadne_atmega328_w5200.hex
+
+## debug bootloader for Arduino Nano with Wiznet W5200 chip
+## ---------------------------------------------
+ariadne328NW.menu.version.debugw5200=Debug w/ Wiznet W5200
+ariadne328NW.menu.version.debugw5200.bootloader.file=ariadne/ariadne_debug328_w5200.hex
+
+## standard bootloader for Arduino Nano with Wiznet W5500 chip
+## ---------------------------------------------
+ariadne328NW.menu.version.standardw5500=Standard w/ Wiznet W5500
+ariadne328NW.menu.version.standardw5500.bootloader.file=ariadne/ariadne_atmega328_w5500.hex
+
+## debug bootloader for Arduino Nano with Wiznet W5500 chip
+## ---------------------------------------------
+ariadne328NW.menu.version.debugw5500=Debug w/ Wiznet W5500
+ariadne328NW.menu.version.debugw5500.bootloader.file=ariadne/ariadne_debug328_w5500.hex
+
+##############################################################
+
 ariadne328E.name=Arduino Ethernet
 
 ariadne328E.upload.tool=arduino:avrdude
