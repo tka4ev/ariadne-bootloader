@@ -17,9 +17,9 @@
           "help": {
             "online": "https://github.com/Ariadne-Bootloader/ariadne-bootloader"
           },
-          "url": "https://github.com/tka4ev/ariadne-bootloader/files/12567974/ariadne-bootloader-0.2.1.zip",
+          "url": "https://github.com/tka4ev/ariadne-bootloader/files/12567995/ariadne-bootloader-0.2.1.zip",
           "archiveFileName": "ariadne-bootloader-0.2.1.zip",
-          "checksum": "SHA-256:3c5df4cbd9610ec675e73bc125f7201c9dcf23d89eaadc842512fb69cebc0370",
+          "checksum": "SHA-256:4b9efd50970dbe2d3c611316471edb587bee781486a431aac44f1a7426d93c61",
           "size": "104031",
           "boards": [
             {"name": "Uno"},
