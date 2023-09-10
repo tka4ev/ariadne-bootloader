@@ -1,0 +1,49 @@
+{
+  "packages": [
+    {
+      "name": "Ariadne-Bootloader",
+      "maintainer": "loathingKernel",
+      "websiteURL": "https://github.com/loathingKernel/ariadne-bootloader",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "Ariadne Bootloader",
+          "architecture": "avr",
+          "version": "0.2.1",
+          "category": "Ariadne Bootloader",
+          "help": {
+            "online": "https://github.com/Ariadne-Bootloader/ariadne-bootloader"
+          },
+          "url": "https://github.com/loathingKernel/ariadne-bootloader/releases/download/v0.2.1/ariadne-bootloader-0.2.1.tar.gz",
+          "archiveFileName": "ariadne-bootloader-0.2.1.tar.gz",
+          "checksum": "SHA-256:8db6d41020a6b6dbd4ec435af42fd8fd5e66fb22867a4808a2ef88d62f7a19f2",
+          "size": "115620",
+          "boards": [
+            {"name": "Uno"},
+            {"name": "Duemilanove"},
+            {"name": "Diecimila"},
+            {"name": "Nano"},
+            {"name": "Mini"},
+            {"name": "BT"},
+            {"name": "Pro"},
+            {"name": "Pro Mini"},
+            {"name": "Arduino Ethernet"},
+            {"name": "Mega 2560"},
+            {"name": "ATmega1284P"},
+            {"name": "Mighty 1284P"},
+            {"name": "Mighty Mini 1284P"},
+            {"name": "Goldilocks"},
+            {"name": "Bobuino"},
+            {"name": "Skinny Bob"}, 
+            {"name": "Sleeping Beauty"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
