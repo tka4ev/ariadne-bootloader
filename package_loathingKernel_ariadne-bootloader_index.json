@@ -20,7 +20,7 @@
           "url": "https://github.com/tka4ev/ariadne-bootloader/files/12567995/ariadne-bootloader-0.2.1.zip",
           "archiveFileName": "ariadne-bootloader-0.2.1.zip",
           "checksum": "SHA-256:4b9efd50970dbe2d3c611316471edb587bee781486a431aac44f1a7426d93c61",
-          "size": "104031",
+          "size": "104034",
           "boards": [
             {"name": "Uno"},
             {"name": "Duemilanove"},
